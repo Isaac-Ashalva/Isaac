@@ -1,0 +1,149 @@
+<DOCTYPE html> 
+<html lang="en-US">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Page description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    
+<link rel="stylesheet" type="text/css" href="">
+    
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    
+    body{
+        background-color:lightgrey;
+        padding-bottom:6000px;
+    }
+    
+    header{
+        position:fixed;
+        left:0;
+        top:0;
+        width:100vw;
+        z-index:100;
+    }
+    
+    .head{
+        background-color:#f1e1e1;
+        text-align:center;
+        padding-top:20px;
+    }
+    
+    .head h3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:10px;
+    }
+    
+    h3 span{
+        margin-left:5px;
+        color:green;
+    }
+    
+    .head h1{
+        color:green;
+        font-weight:300px;
+        font-size:40px;
+        padding:5px;
+    }
+    
+    .navbar{
+        background-color:grey;
+        display:flex;
+        align-items:center;
+       padding:10px; justify-content:space-around;
+    }
+    
+    .navbar a{
+        text-decoration:none;
+        font-size:18px;
+        font-weight:bolder;
+        color:black;
+    }
+    #active{
+        color:#fe7bec;
+    }
+    
+    .section{
+        margin-top:165px;
+        
+       height:100px;
+       position:relative; background-color:lightgreen;
+display:flex;
+justify-content:space-between;
+    }
+    
+    .left-section{
+        position:absolute;
+        left:0;
+        top:0;
+        width:50%;
+       background-color:#fed; 
+       padding:50px 10px 10px;
+    }
+    
+    .right-section{
+        position:absolute;
+        right:0;
+        top:0;
+        width:50%;
+        background-color:#def;
+        padding:50px 10px 10px;
+    }
+    
+</style>
+    
+    </head>
+    <body>
+        <header class = "head-content">
+    <div class = "head">
+        <h1><span>Isaac Newton</span>
+    <hr><hr>
+</h1>
+    <h3><span> Website developer</span></h3>
+    </div>
+        
+       <nav class = "navbar">
+         
+                    <a href = "index.html"">
+                        Home
+                    </a>
+                    <a id = "active" href = "#">
+                        About
+                    </a>
+                    <a href = "#">
+                        Projects
+                    </a>
+                    <a href = "#">
+                        Contacts
+                    </a>
+                           
+       </nav>
+    
+</header>
+    
+<section class = "section">
+    <div class = "left-section">
+       <b>School:</b><br><br>
+    <b>Address:</b><br><br>
+        <b>Phone:</b><br><br>
+       <b>Office:</b><br><br>
+       <b>Target:</b>
+    </div>
+        
+    <div class = "right-section">
+        <small>Johnnittech</small><br><br>
+    <small>Minawao, Maroua Cameroon</small><br><br>
+    <small>652196639</small>
+    </div>
+</section>
+    
+    </body>
+</html>
