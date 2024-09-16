@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+        <title>Portfolio</title>
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                font-family:Sans-serif;
+                text-align:center;
+                color:white;
+            }
+            body{
+                background-color:#111;
+            }
+            .container{
+                width:100%;
+                height:100%;
+                position:relative;
+            }
+            .container h1{
+                color:green;
+                font-size:2.5em;
+            }
+            .container span{
+                color:#a13478;
+            }
+            .head{
+                display:flex;
+                flex-direction:column;
+                padding-top:2rem;
+            }
+            nav ul{
+                margin-top:2rem;
+                display:flex;
+                padding:.5rem 1rem;
+            }
+            
+            nav ul li{
+                list-style:none;
+                margin:.2em;
+            }
+            nav ul li a{
+                text-decoration:none;
+                font-weight:bolder;
+                color:#e1e1e1;
+                padding:.2em;
+            }
+            
+            a:hover{
+                color:#111;
+              transition-duration:.5s;  background-color:#e1e1e1;
+            }
+            .img{
+                padding:2rem;
+                margin-top:2rem;
+            }
+            .img img{
+                margin-top:1.5rem;
+                border-radius:1em;
+            }
+            .img h3{
+                color:#ddd;
+            }
+            
+            .main p{
+                padding:0 3rem;
+                font-size:1.1em;
+                color:#ccc;
+            }
+            
+            
+            .btn{
+                margin-top:2rem;
+                
+            }
+            .btn button{
+              margin:1rem;
+              font-size:20px;
+              padding:.5em;
+              box-shadow:1px 1px 5px #fff;
+              border:none;
+              color:green;
+              border-radius:10px;
+              background-color:#333;
+            }
+            .btn button:hover{
+             color:#333; background-color:green;
+transition-duration:.5s;
+            }
+            
+            
+            
+  @media only screen and (min-width:600px){
+    
+*{
+    padding:0;
+    margin:0;
+    color:white;
+    font-family:sans-serif;
+}
+    body{
+        background-color:#111;
+    }
+    
+    .container h1{
+        color:green;
+        font-size:5em;
+    }
+    
+    nav ul li{
+        width:20vw;
+    }
+    
+    nav ul li a{
+        font-size:1.5em;
+      
+    }
+    .main{
+        margin-top:2em;
+        padding-top:1.5em;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .main{
+        margin:0 100px;
+        float:left;
+        background-color:rgba(22,22,22);
+    }
+    
+    .img img{
+        width:100%;
+    }
+    
+    .btn{
+        display:inline-block;
+    }
+ }
+ 
+ 
+ @media only screen and(min-width:300)
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "head">
+                <div class = "logo">
+                    <h1>Isaac <span>Ashalva</span></h1>
+    <hr><hr>
+                </div>
+                <nav>
+                 <ul>
+                    <li><a href = "me.html">
+                        Home
+                           </a></li>
+                      <li><a href = "about.html">
+                          About
+                           </a></li>
+                    <li><a href = "contact.html"">
+                        Contacts
+                           </a></li>
+                     <li><a href = "#">
+                         Projects
+                           </a></li>
+                    <li><a href = "service.html"">
+                        Services
+                           </a></li>                                         
+                 </ul>   
+                 <hr>
+                </nav>
+                
+            </div>
+                
+            <div class = "main">
+                <div class = "img">
+                    <h3>Hi, I'm Isaac</h3>
+    <img src="images/Isaac.jpg" alt="image" width="200" height="auto"></img>
+                </div>
+              <p>This is my official portfolio. I do my best to reach your need and give you a better expirience on websites.</p>
+            </div>
+       
+        <div class = "btn">
+          <button>Download CV
+          </button>  
+          <button>Hire me
+          </button>
+        </div>
+     </div>
+            
+    </body>
+</html>
